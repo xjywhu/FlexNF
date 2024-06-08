@@ -1,0 +1,12 @@
+device:s3
+6 1 4 5 3 2
+device:s4
+6 1 4 5 3 2
+device:s6
+6 1 4 5 3 2
+device:s7
+6 1 4 5 3 2
+device:s8
+6 1 4 5 3 2
+device:s9
+6 1 4 5 3 2

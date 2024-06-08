@@ -1,0 +1,28 @@
+192.168.67.71
+
+add_with_action_default_forward 16 17
+add_with_switch_action 0x11 18
+
+
+
+192.168.67.232
+add_with_action_default_forward 152 154
+
+
+
+
+192.168.67.32
+add_with_action_default_forward 156 158
+add_with_action_default_forward 157 159
+
+
+
+192.168.67.35
+add_with_action_default_forward 156 158
+
+
+
+
+192.168.67.7
+add_with_action_default_forward 188 189
+add_with_action_default_forward 190 189

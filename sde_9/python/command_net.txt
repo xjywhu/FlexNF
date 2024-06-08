@@ -1,0 +1,7 @@
+ucli
+pm
+port-add 1/- 10G none
+an-set 1/- 2
+port-enb 1/-
+show
+

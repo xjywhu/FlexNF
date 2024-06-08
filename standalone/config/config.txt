@@ -1,0 +1,6 @@
+device:s3 1
+device:s4 2
+device:s6 3
+device:s7 4
+device:s8 5
+device:s9 6

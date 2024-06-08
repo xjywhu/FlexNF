@@ -1,0 +1,55 @@
+version: "3"
+
+services:
+  mininet:
+    image: mininet-test:2.0
+    hostname: mininet-test
+    container_name: mininet-test
+    privileged: true
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./mininet:/mininet
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /home/djp/.Xauthority:/root/.Xauthority
+    environment:
+      - DISPLAY=:12.0
+    ports:
+      - "50001:50001"
+      - "50002:50002"
+      - "50003:50003"
+      - "50004:50004"
+      - "50005:50005"
+      - "50006:50006"
+      - "50007:50007"
+      - "50008:50008"
+      - "50009:50009"
+      - "50010:50010"
+      - "50011:50011"
+      - "50012:50012"
+      - "50013:50013"
+      - "50014:50014"
+      - "50015:50015"
+      - "50016:50016"
+      - "50017:50017"
+      - "50018:50018"
+      - "50019:50019"
+      - "50020:50020"
+      - "50021:50021"
+      - "50022:50022"
+    entrypoint: "/mininet/topo.py"
+    network_mode: "host"
+  onos:
+    image: onosproject/onos:2.2.0
+    hostname: onos
+    container_name: onos
+    ports:
+      - "8181:8181" # HTTP
+      - "8101:8101" # SSH (CLI)
+    volumes:
+      - ./tmp/onos:/root/onos/apache-karaf-4.2.6/data/tmp
+      - ./config:/root/onos/apache-karaf-4.2.6/config
+    environment:
+      - ONOS_APPS=gui,drivers.bmv2,lldpprovider,hostprovider
+    links:
+      - mininet

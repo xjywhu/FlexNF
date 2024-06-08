@@ -1,0 +1,17 @@
+
+add_with_arp_action 0x02020202 0x1 0x0 0x0 0x0 0x0a0a0a0a0a0a
+add_with_firewall_action 0x01010101 0x02020202
+add_with_router_action 0x02020202 0x0 0x0 0x0 0x0 0x0b0b0b0b0b0b 0x0c0c0c0c0c 0
+add_with_switch_action 0x00000011 0x0 0x0 0x0 0x0 0
+add_with_switch_action_pre 0
+add_with_router_action_pre 1
+add_with_firewall_action_pre 2
+add_with_arp_action_pre        3
+
+
+1s（1500）吞吐
+1s (1500) 丢包率
+1s (1500) 时延
+
+
+ 

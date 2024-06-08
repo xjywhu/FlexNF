@@ -1,0 +1,296 @@
+{
+  "devices": {
+    "device:s1": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50001?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:01",
+        "isSpine": false
+      }
+    },
+    "device:s2": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50002?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:02",
+        "isSpine": false
+      }
+    },
+    "device:s3": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50003?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:03",
+        "isSpine": false
+      }
+    },
+    "device:s4": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50004?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:04",
+        "isSpine": false
+      }
+    },
+    "device:s5": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50005?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:05",
+        "isSpine": false
+      }
+    },
+    "device:s6": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50006?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:06",
+        "isSpine": false
+      }
+    },
+    "device:s7": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50007?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:07",
+        "isSpine": false
+      }
+    },
+    "device:s8": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50008?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:08",
+        "isSpine": false
+      }
+    },
+    "device:s9": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50009?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:09",
+        "isSpine": false
+      }
+    },
+    "device:s10": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50010?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:10",
+        "isSpine": false
+      }
+    },
+    "device:s11": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50011?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:11",
+        "isSpine": false
+      }
+    },
+    "device:s12": {
+      "basic": {
+        "managementAddress": "grpc://mininet:50012?device_id=1",
+        "driver": "stratum-bmv2",
+        "pipeconf": "org.onosproject.ngsdn-tutorial"
+      },
+      "fabricDeviceConfig": {
+        "myStationMac": "00:aa:00:00:00:12",
+        "isSpine": false
+      }
+    }
+  },
+  "ports": {
+    "device:s1/1": {
+      "interfaces": [
+        {
+          "name": "s1-1",
+          "ips": ["2001:1:1::ff/64"]
+        }
+      ]
+    },
+    "device:s2/1": {
+      "interfaces": [
+        {
+          "name": "s2-1",
+          "ips": ["2001:2:1::ff/64"]
+        }
+      ]
+    },
+    "device:s3/1": {
+      "interfaces": [
+        {
+          "name": "s3-1",
+          "ips": ["2001:3:1::ff/64"]
+        }
+      ]
+    },
+    "device:s4/1": {
+      "interfaces": [
+        {
+          "name": "s4-1",
+          "ips": ["2001:4:1::ff/64"]
+        }
+      ]
+    },
+    "device:s5/1": {
+      "interfaces": [
+        {
+          "name": "s5-1",
+          "ips": ["2001:5:1::ff/64"]
+        }
+      ]
+    },
+    "device:s6/1": {
+      "interfaces": [
+        {
+          "name": "s6-1",
+          "ips": ["2001:6:1::ff/64"]
+        }
+      ]
+    },
+    "device:s7/1": {
+      "interfaces": [
+        {
+          "name": "s7-1",
+          "ips": ["2001:7:1::ff/64"]
+        }
+      ]
+    },
+    "device:s8/1": {
+      "interfaces": [
+        {
+          "name": "s8-1",
+          "ips": ["2001:8:1::ff/64"]
+        }
+      ]
+    },
+    "device:s9/1": {
+      "interfaces": [
+        {
+          "name": "s9-1",
+          "ips": ["2001:9:1::ff/64"]
+        }
+      ]
+    },
+    "device:s10/1": {
+      "interfaces": [
+        {
+          "name": "s10-1",
+          "ips": ["2001:a:1::ff/64"]
+        }
+      ]
+    },
+    "device:s11/1": {
+      "interfaces": [
+        {
+          "name": "s11-1",
+          "ips": ["2001:b:1::ff/64"]
+        }
+      ]
+    },
+    "device:s12/1": {
+      "interfaces": [
+        {
+          "name": "s12-1",
+          "ips": ["2001:c:1::ff/64"]
+        }
+      ]
+    }
+  },
+  "hosts": {
+    "00:00:00:00:00:01/None": {
+      "basic": {
+        "name": "h1"
+      }
+    },
+    "00:00:00:00:00:02/None": {
+      "basic": {
+        "name": "h2"
+      }
+    },
+    "00:00:00:00:00:03/None": {
+      "basic": {
+        "name": "h3"
+      }
+    },
+    "00:00:00:00:00:04/None": {
+      "basic": {
+        "name": "h4"
+      }
+    },
+    "00:00:00:00:00:05/None": {
+      "basic": {
+        "name": "h5"
+      }
+    },
+    "00:00:00:00:00:06/None": {
+      "basic": {
+        "name": "h6"
+      }
+    },
+    "00:00:00:00:00:07/None": {
+      "basic": {
+        "name": "h7"
+      }
+    },
+    "00:00:00:00:00:08/None": {
+      "basic": {
+        "name": "h8"
+      }
+    },
+    "00:00:00:00:00:09/None": {
+      "basic": {
+        "name": "h9"
+      }
+    },
+    "00:00:00:00:00:0a/None": {
+      "basic": {
+        "name": "h10"
+      }
+    },
+    "00:00:00:00:00:0b/None": {
+      "basic": {
+        "name": "h11"
+      }
+    },
+    "00:00:00:00:00:0c/None": {
+      "basic": {
+        "name": "h12"
+      }
+    }
+  }
+}

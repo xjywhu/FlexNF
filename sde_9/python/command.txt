@@ -1,0 +1,7 @@
+ucli
+pm
+port-add 1/0 100G none
+port-add 2/0 100G none
+port-enb 1/0
+port-enb 2/0
+show
